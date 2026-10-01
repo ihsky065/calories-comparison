@@ -18,6 +18,7 @@ function App() {
     <>
     <h2>Calorie Comparisons</h2>
     <CalorieCompare food1={'Apple'} cal1={95} food2={'Banana'} cal2={105}/>
+    <CalorieCompare food1={'Rice'} cal1={206} food2={'Quinoa'} cal2={222}/>
     </>
   )
 }
