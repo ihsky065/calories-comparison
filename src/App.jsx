@@ -6,10 +6,10 @@ function CalorieCompare ({food1, food2, cal1, cal2}) {
   else displayMessage = 'Both foods have the same calories';
 
   return(
-    <>
+    <div id="container">
     <h3>{food1} ({cal1} kcal) vs {food2} ({cal2} kcal)</h3>
     <p>{displayMessage} </p>
-    </>
+    </div>
   )
 }
 
