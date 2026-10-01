@@ -16,6 +16,8 @@ function CalorieCompare ({food1, food2, cal1, cal2}) {
 function App() {
   return(
     <>
+    <h2>Calorie Comparisons</h2>
+    <CalorieCompare food1={'Apple'} cal1={95} food2={'Banana'} cal2={105}/>
     </>
   )
 }
